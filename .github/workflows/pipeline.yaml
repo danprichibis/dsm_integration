@@ -25,7 +25,7 @@ jobs:
         run: |
           chmod +x dsm
           ./dsm runb \
-            --app-name "Git Hub" \
+            --application "Git Hub" \
             --system "Lab" \
             --environment "Lab" \
             --tool-name github \
