@@ -23,9 +23,15 @@ jobs:
           SENHASEGURA_CLIENT_SECRET: ${{ secrets.SENHASEGURA_CLIENT_SECRET }}
           SENHASEGURA_URL: ${{ secrets.SENHASEGURA_URL }}
           MAPPING_TEST: ${{ secrets.MAPPING_TEST }}
-          username: ${{ secrets.username }}
-          password: ${{ secrets.password }}
-          SENHASEGURA_MAPPING_FILE: ${{ secrets.SENHASEGURA_MAPPING_FILE }}
+          USERNAME: ${{ secrets.USERNAME }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          AWS_KEY: ${{ secrets.AWS_KEY }}
+          AWS_SECRET_ACCESS_KEY_VARIABLE: ${{ secrets.AWS_SECRET_ACCESS_KEY_VARIABLE }}
+          AZURE_ACCESS_KEY_ID_VARIABLE: ${{ secrets.AZURE_ACCESS_KEY_ID_VARIABLE }}
+          AZURE_SECRET_ACCESS_KEY_VARIABLE: ${{ secrets.AZURE_SECRET_ACCESS_KEY_VARIABLE }}
+          DATABASE_IP: ${{ secrets.DATABASE_IP }}
+          GCP_ACCESS_KEY_ID_VARIABLE: ${{ secrets.GCP_ACCESS_KEY_ID_VARIABLE }}
+          GCP_SECRET_ACCESS_KEY_VARIABLE: ${{ secrets.GCP_SECRET_ACCESS_KEY_VARIABLE }}
         run: |
           chmod +x dsm
           ./dsm runb \
