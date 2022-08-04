@@ -25,6 +25,7 @@ jobs:
           MAPPING_TEST: ${{ secrets.MAPPING_TEST }}
           username: ${{ secrets.username }}
           password: ${{ secrets.password }}
+          SENHASEGURA_MAPPING_FILE: ${{ secrets.SENHASEGURA_MAPPING_FILE }}
         run: |
           chmod +x dsm
           ./dsm runb \
