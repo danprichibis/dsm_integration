@@ -4,8 +4,24 @@
       "name": "AWS_VARIABLES",
       "type": "aws",
       "fields": {
-        "access_key_id": "AWS_ACCESS_KEY_ID_VARIABLE",
+        "access_key_id": "AWS_KEY",
         "secret_access_key": "AWS_SECRET_ACCESS_KEY_VARIABLE"
+      }
+    }
+       {
+      "name": "AZURE_VARIABLES",
+      "type": "azure",
+      "fields": {
+        "access_key_id": "AZURE_ACCESS_KEY_ID_VARIABLE",
+        "secret_access_key": "AZURE_SECRET_ACCESS_KEY_VARIABLE"
+      }
+    }
+   {
+      "name": "GCP_VARIABLES",
+      "type": "gcp",
+      "fields": {
+        "access_key_id": "GCP_ACCESS_KEY_ID_VARIABLE",
+        "secret_access_key": "GCP_SECRET_ACCESS_KEY_VARIABLE"
       }
     }
   ],
@@ -15,7 +31,7 @@
       "fields": {
         "user": "username",
         "password": "password",
-        "host": "HOST_VARIABLE"
+        "host": "database_ip"
       }
     }
   ],
