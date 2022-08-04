@@ -30,7 +30,7 @@ jobs:
             --environment "Lab" \
             --tool github \
             -v \
-          source .runb.vars && rm .runb.vars
+          source .runb.vars
       - name: Run DSM CLI as Running Belt
         run: echo "$Test"
       
