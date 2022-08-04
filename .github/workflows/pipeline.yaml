@@ -32,6 +32,7 @@ jobs:
           DATABASE_IP: ${{ secrets.DATABASE_IP }}
           GCP_ACCESS_KEY_ID_VARIABLE: ${{ secrets.GCP_ACCESS_KEY_ID_VARIABLE }}
           GCP_SECRET_ACCESS_KEY_VARIABLE: ${{ secrets.GCP_SECRET_ACCESS_KEY_VARIABLE }}
+          SENHASEGURA_MAPPING_FILE: ${{ secrets.SENHASEGURA_MAPPING_FILE }}
         run: |
           chmod +x dsm
           ./dsm runb \
