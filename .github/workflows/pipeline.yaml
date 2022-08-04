@@ -32,6 +32,6 @@ jobs:
             -v \
           source .runb.vars && rm .runb.vars
       - name: Run DSM CLI as Running Belt
-        run: echo ${{Test}}
+        run: echo $Test
       
 
