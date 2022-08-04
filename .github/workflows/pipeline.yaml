@@ -23,6 +23,7 @@ jobs:
           SENHASEGURA_CLIENT_SECRET: ${{ secrets.SENHASEGURA_CLIENT_SECRET }}
           SENHASEGURA_URL: ${{ secrets.SENHASEGURA_URL }}
         run: |
+          chmod +x dsm
           dsm runb \
             --app-name "Git Hub" \
             --system "Lab" \
