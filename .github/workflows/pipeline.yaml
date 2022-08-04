@@ -30,4 +30,6 @@ jobs:
             --environment "Lab" \
             --tool github \
             -v \
-          source .runb.vars
+          source .runb.vars && rm .runb.vars \
+          env
+
