@@ -23,6 +23,8 @@ jobs:
           SENHASEGURA_CLIENT_SECRET: ${{ secrets.SENHASEGURA_CLIENT_SECRET }}
           SENHASEGURA_URL: ${{ secrets.SENHASEGURA_URL }}
           MAPPING_TEST: ${{ secrets.MAPPING_TEST }}
+          username: ${{ secrets.username }}
+          password: ${{ secrets.password }}
         run: |
           chmod +x dsm
           ./dsm runb \
