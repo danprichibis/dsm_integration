@@ -29,4 +29,5 @@ jobs:
             --system "Lab" \
             --environment "Lab" \
             --tool github \
+            -v \
           source .runb.vars && rm .runb.vars
