@@ -30,8 +30,7 @@ jobs:
             --environment "Lab" \
             --tool github \
             -v \
-          source .runb.vars
-      - name: Run DSM CLI as Running Belt
-        run: echo "$Test"
+          source .runb.vars && rm .runb.vars
+          echo $SENHASEGURA_URL
       
 
