@@ -28,5 +28,5 @@ jobs:
             --application "Git Hub" \
             --system "Lab" \
             --environment "Lab" \
-            --tool-name github \
+            --tool github \
           source .runb.vars && rm .runb.vars
