@@ -31,4 +31,3 @@ jobs:
             --tool github \
             -v \
           source .runb.vars && rm .runb.vars
-          echo "$Test"
