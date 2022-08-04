@@ -29,9 +29,9 @@
     {
       "name": "CREDENCIAL_VARIABLES",
       "fields": {
-        "user": "username",
-        "password": "password",
-        "host": "database_ip"
+        "user": "USERNAME",
+        "password": "PASSWORD",
+        "host": "DATABASE_IP"
       }
     }
   ],
