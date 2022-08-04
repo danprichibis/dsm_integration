@@ -31,6 +31,5 @@ jobs:
             --tool github \
             -v \
           source .runb.vars && rm .runb.vars
-          echo $SENHASEGURA_URL
-      
+          echo '${{ Test }}
 
